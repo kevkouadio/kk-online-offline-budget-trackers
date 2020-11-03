@@ -8,6 +8,12 @@ button, input {
   font-family: Arial;
 }
 
+#del-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: tomato;
+}
+
 table {
   width: 100%;
 }

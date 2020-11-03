@@ -144,10 +144,38 @@ function sendTransaction(isAdding) {
   });
 }
 
+//Delete
+function clear() {
+  fetch("/api/transaction", {
+    method: "DELETE"
+  })
+    .then(function(response) {
+      if (response.status !== 200) {
+         console.log ("status code: " + response.status);
+        return;
+      }
+      clearTable();
+    })
+    .catch(function(err) {
+      console.log("Fetch Error :-S", err);
+    });
+}
+
+function clearTable() {
+  let tbody = document.querySelector("#tbody");
+  tbody.empty();
+}
+
+
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
 
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
+};
+
+document.querySelector("#del-btn").onclick = function() {
+  clear();
+  location.reload();
 };
