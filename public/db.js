@@ -55,7 +55,7 @@ request.onsuccess = ({ target }) => {
             .then(() => {
               // delete records if successful
               const transaction = db.transaction(["pending"], "readwrite");
-              const objectStore = transaction.objectStore("pending");
+              const store = transaction.objectStore("pending");
               store.clear();
   
             });
