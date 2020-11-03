@@ -1,63 +1,32 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Workout Tracker
+![](https://img.shields.io/badge/license-MIT-green)
+## Description
+It is a Progressive Web Application to track Budget without an internet connection. When the user inputs a withdrawal or deposit, that will be shown on the page, and added to their transaction history when their connection is back online. The app is downloadable on any device.  
+## Table of contents
+* [Description](#Description)
+* [Link](#Link)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Screenshot](#Screenshot)
+* [Questions](#Questions)
+## Link
+[Click here to view the deployed app](https://kk-budget-tracker.herokuapp.com/).
+## Usage
+Put the name transaction of the transaction, then put the amout on the transaction amount area and click on `Add Funds` for a deposit or `Subtract Funds` for a withdrawal.
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+To download on computer, click on the plus `+` sign on the right side of the url field of the browser.  
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+For mobile devices, click on the links for more details: [Install PWA on Your Phone](https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/)
 
-Offline Functionality:
+## Licence
+This app is under the MIT License.
+## Contributing
+I would be happy if anyone decide to improve it. All comments and suggestions are welcomed.
+## Screenshot
+![](public/icons/Screenshot.png) 
 
-  * Enter deposits offline
+## Questions
+Contact me: kevkouadio@gmail.com
 
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+My Github: http://github.com/kevkouadio
